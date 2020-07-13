@@ -10,6 +10,13 @@ import com.pi4j.io.gpio.event.GpioPinListenerDigital;
 /***********************************************************************
  * Intetion is to operate the Foxun 4x4 HDMI Matrix 4K@60Hz 4:4:4
  * via network using the GPIO pins on the Raspberry Pi.
+ * This requires ASCII UDP communication to port 5000.
+ * The factory default matrix ip address is 192.168.1.168.
+ * Example command:
+ *     - set output 4 to input 1:  @ W 03 00 #
+ *     - set output 4 to input 2:  @ W 03 01 #
+ *     - get device name: @ R 0e #
+ * See Foxun 4x4 matrix manual for more info on commands.
  * ********************************************************************/ 
 public class FoxunRPi
 {
@@ -37,3 +44,6 @@ public class FoxunRPi
 		
 	}
 }
+
+git remote add origin https://github.com/smeerpate/FoxunRPi.git
+git push -u origin master
