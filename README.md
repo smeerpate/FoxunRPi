@@ -31,4 +31,6 @@ E.g:
 
 ***@ W 00 00 #***
 
+(Hex: 40 20 57 20 30 30 20 30 30 20 23)
+
 Means: "Display input1 on output 1."
