@@ -44,6 +44,3 @@ public class FoxunRPi
 		
 	}
 }
-
-git remote add origin https://github.com/smeerpate/FoxunRPi.git
-git push -u origin master
