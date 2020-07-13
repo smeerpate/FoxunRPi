@@ -1,5 +1,5 @@
 # FoxunRPi
-he goal of this project is tooperate the Foxun 4x4 HDMI Matrix 4K@60Hz 4:4:4 via network using the GPIO pins on the Raspberry Pi.
+The goal of this project is to operate the Foxun 4x4 HDMI Matrix 4K@60Hz 4:4:4 via network using the GPIO pins on the Raspberry Pi.
 Requires UDP communication on port 5000.
 Factory default IP address is 192.168.1.168.
 
